@@ -38,7 +38,7 @@ This allows the media player to be expanded.
 
 ### Getting Started
 
-Open the *__about:debugging]__* page in *firefox*, click the *__This Firefox__* option, click the
+Open the *__about:debugging__* page in *firefox*, click the *__This Firefox__* option, click the
 Load Temporary Add-on button, then select any file in your extension's directory.
 
 
