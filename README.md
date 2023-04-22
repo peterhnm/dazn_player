@@ -28,10 +28,18 @@
 This plugin tweaks the dazn.com media player.
 It does this by removing the side panel, which shows statistics about the game being shown.
 This allows the media player to be expanded.
+> *__Note__*: You need to reload after you went back to the home screen.
 
 ### Built With
 
-* The icon was created by [juicy_fish](https://www.flaticon.com/authors/juicy-fish) and can be downloaded [here](https://www.flaticon.com/de/kostenloses-icon/videoplayer_9482573?term=player&page=1&position=95&origin=search&related_id=9482573)
+* The icon was created by [juicy_fish](https://www.flaticon.com/authors/juicy-fish) and can be downloaded 
+[here](https://www.flaticon.com/de/kostenloses-icon/videoplayer_9482573?term=player&page=1&position=95&origin=search&related_id=9482573)
+
+
+### Getting Started
+
+Open the [about:debugging](about:debugging#/setup) page in *firefox*, click the *__This Firefox__* option, click the
+Load Temporary Add-on button, then select any file in your extension's directory.
 
 
 ## Contributing
