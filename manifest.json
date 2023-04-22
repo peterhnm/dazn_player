@@ -1,8 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Dazn Media Player",
+  "author": "Peter Heinemann",
   "version": "1.0",
-  "description": "Manipulates the media player to get a wider screen.",
+  "description": "This plugin adds an option in the context menu that tweaks the `dazn.com` media player. It does this by removing the side panel, which shows statistics about the game being shown. This allows the media player to be expanded.",
+  "homepage_url": "https://github.com/peterhnm/dazn_player",
   "icons": {
     "48": "images/icon_48.png",
     "96": "images/icon_96.png"
