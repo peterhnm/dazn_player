@@ -37,6 +37,7 @@ async function removeSideMenu() {
 async function resizeMediaPlayer() {
     // Modify container
     try {
+        // TODO: How to make the querySelector more specific?
         const el = document.body.querySelector(
             "[class^=\"video-content__video-content-container___\"]"
             //"[class$=\"video-content__video-content-container-with-panel___\"]"
