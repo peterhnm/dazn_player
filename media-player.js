@@ -24,9 +24,8 @@ async function removeSideMenu() {
 
         if (el && el.tagName === "ASIDE") {
             el.remove();
-        } else {
-            throw Error("Could not find side menu!");
         }
+
     } catch(error) {
         console.error(`[DAZN.MediaPlayer] ${error}`);
     }
@@ -39,8 +38,7 @@ async function resizeMediaPlayer() {
     // Modify container
     try {
         const el = document.body.querySelector(
-            "[class^=\"video-content__video-content-container___\"]",
-            "[class$=\"video-content__video-content-container-with-panel___\"]"
+            "[class^=\"video-content__video-content-container___\"][class$=\"video-content__video-content-container-with-panel___\"]"
         );
 
         if (el && el.tagName === "DIV" && el.parentElement.tagName === "MAIN") {
@@ -50,20 +48,16 @@ async function resizeMediaPlayer() {
                 );
             }
             el.style.width = "100vw";
-        } else {
-            throw Error("Could not find media player container!");
         }
         
         // Modify container element
-        const child = el.querySelector(
-            "[class^=video-content__video-content-element___"
-        );
+        const child
+            = el.querySelector("[class^=\"video-content__video-content-element___\"]");
 
         if (child) {
             child.style.position = "static";
-        } else {
-            throw Error("Could not find media player container element!");
         }
+
     } catch(error) {
         console.error(`[DAZN.MediaPlayer] ${error}`);
     }

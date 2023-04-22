@@ -4,8 +4,8 @@
   "version": "1.0",
   "description": "Manipulates the media player to get a wider screen.",
   "icons": {
-    "48": "icons/icon_48.png",
-    "96": "icons/icon_96.png"
+    "48": "images/icon_48.png",
+    "96": "images/icon_96.png"
   },
   "permissions": [
     "activeTab",
