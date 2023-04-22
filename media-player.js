@@ -38,7 +38,8 @@ async function resizeMediaPlayer() {
     // Modify container
     try {
         const el = document.body.querySelector(
-            "[class^=\"video-content__video-content-container___\"][class$=\"video-content__video-content-container-with-panel___\"]"
+            "[class^=\"video-content__video-content-container___\"]"
+            //"[class$=\"video-content__video-content-container-with-panel___\"]"
         );
 
         if (el && el.tagName === "DIV" && el.parentElement.tagName === "MAIN") {
