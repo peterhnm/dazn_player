@@ -25,7 +25,7 @@
 </div>
 
 ## About The Project
-This plugin tweaks the dazn.com media player.
+This plugin adds an option in the context menu that tweaks the `dazn.com` media player.
 It does this by removing the side panel, which shows statistics about the game being shown.
 This allows the media player to be expanded.
 > *__Note__*: You need to reload after you went back to the home screen.
@@ -38,8 +38,10 @@ This allows the media player to be expanded.
 
 ### Getting Started
 
-Open the [about:debugging](about:debugging#/setup) page in *firefox*, click the *__This Firefox__* option, click the
+Open the [about:debugging][firefox-debugging] page in *firefox*, click the *__This Firefox__* option, click the
 Load Temporary Add-on button, then select any file in your extension's directory.
+
+[firefox-debugging]: about:debugging#/setup
 
 
 ## Contributing
