@@ -26,7 +26,7 @@
 
 ## About The Project
 This plugin adds an option in the context menu that tweaks the `dazn.com` media player.
-It does this by removing the side panel, which shows statistics about the game being shown.
+It does this by removing the side panel, which shows statistics about the game.
 This allows the media player to be expanded.
 > *__Note__*: You need to reload after you went back to the home screen.
 
