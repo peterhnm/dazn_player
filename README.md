@@ -11,7 +11,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <a href="#">
+    <a href="https://www.flaticon.com/authors/juicy-fish">
         <img src="images/videoplayer.png" alt="Videoplayer" height="180">
     </a>
     <h3>DAZN Media Player</h3>
@@ -30,33 +30,10 @@ It does this by removing the side panel, which shows statistics about the game.
 This allows the media player to be expanded.
 > *__Note__*: You need to reload after you went back to the home screen.
 
-### Built With
-
-* The icon was created by [juicy_fish](https://www.flaticon.com/authors/juicy-fish) and can be downloaded 
-[here](https://www.flaticon.com/de/kostenloses-icon/videoplayer_9482573?term=player&page=1&position=95&origin=search&related_id=9482573)
-
-
 ### Getting Started
 
 Open the *__about:debugging__* page in *firefox*, click the *__This Firefox__* option, click the
 Load Temporary Add-on button, then select any file in your extension's directory.
-
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please open an issue with the tag "enhancement", fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Please use semantic commit messages as described in [here](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716).  
-Don't forget to give the project a star! Thanks again!
-
-1. Open an issue with the tag "enhancement"
-2. Fork the Project
-3. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-4. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-5. Push to the Branch (`git push origin feature/AmazingFeature`)
-6. Open a Pull Request
-
 
 ## License
 
