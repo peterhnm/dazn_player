@@ -1,6 +1,6 @@
 {
-  "manifest_version": 2,
-  "name": "Dazn Media Player",
+  "manifest_version": 3,
+  "name": "DAZN Expanded Media Player",
   "author": "Peter Heinemann",
   "version": "1.0",
   "description": "This plugin adds an option in the context menu that tweaks the `dazn.com` media player. It does this by removing the side panel, which shows statistics about the game being shown. This allows the media player to be expanded.",
